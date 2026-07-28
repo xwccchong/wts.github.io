@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-28 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Excited to join **Ant Group** as an intern, working on LLM multimodal and memory-related research! :rocket:

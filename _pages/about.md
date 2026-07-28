@@ -22,9 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
 I am a Master's student in **Control Science and Engineering** at **[Tongji University](https://www.tongji.edu.cn/)**, advised by Prof. Zheng Wang. My research focuses on **Embodied Intelligence**, with an emphasis on generalization, lightweight models, continual learning, and mixture-of-experts for robot manipulation.
