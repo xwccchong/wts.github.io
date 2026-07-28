@@ -3,25 +3,28 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{wu2026lada,
+@inproceedings{weng2026language,
   title     = {Language-Grounded Decoupled Action Representation for Robotic Manipulation},
-  author    = {Wu, Tongshu and Wang, Z.},
+  author    = {Weng, Wuding and Wu, Tongshu and Chen, Liucheng and Xie, Siyu and Wang, Zheng and Xu, Xing and Song, Jingkuan and Shen, Heng Tao},
+  booktitle = {CVPR},
   year      = {2026},
-  journal   = {CVPR},
   abbr      = {CVPR},
   selected  = {true},
-  abstract  = {Proposed LaDA framework that maps continuous 7-DoF control into Translation, Rotation, and Gripper primitives via language-driven action decoupling. Designed Semantic-Guided Soft-Label Contrastive Learning for cross-task semantic alignment. Achieved 93.6\% average success rate on LIBERO with only 0.6B parameters, outperforming larger VLA models. Successfully deployed on Franka Panda real robot.},
+  abstract  = {The heterogeneity between high-level vision-language understanding and low-level action control remains a fundamental challenge in robotic manipulation. Although recent methods have advanced task-specific action alignment, they often struggle to generate robust and accurate actions for novel or semantically related tasks. To address this, we propose the Language-Grounded Decoupled Action Representation (LaDA) framework, which leverages natural language as a semantic bridge to connect perception and control. LaDA introduces a fine-grained intermediate layer of three interpretable action primitives--translation, rotation, and gripper control--providing explicit semantic structure for low-level actions. It further employs a semantic-guided soft-label contrastive learning objective to align similar action primitives across tasks, enhancing generalization and motion consistency. An adaptive weighting strategy, inspired by curriculum learning, dynamically balances contrastive and imitation objectives for stable and effective training. Extensive experiments on simulated benchmarks (LIBERO and MimicGen) and real-world demonstrations validate that LaDA achieves strong performance and generalizes effectively to unseen or related tasks.},
   bibtex_show = {true}
 }
 
 @inproceedings{wu2025fast,
   title     = {Fast Policy: Accelerating Visuomotor Policies without Re-training},
-  author    = {Wu, Tongshu and Wang, Z.},
-  year      = {2025},
+  author    = {Wu, Tongshu and Wang, Zheng},
   booktitle = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2025},
   address   = {Hangzhou, China},
+  pages     = {11321--11326},
+  doi       = {10.1109/IROS60139.2025.11246259},
   abbr      = {IROS},
   selected  = {true},
-  abstract  = {Proposed a training-free acceleration framework for diffusion models in visuomotor policies. Dynamically reuses encoder features and applies noise correction to eliminate redundant computation in non-critical denoising steps. Reduced single inference latency to ~80ms (2x speedup over DDIM) on ToolHang and other complex tasks with no performance degradation.},
+  abstract  = {Diffusion models are increasingly employed in visuomotor policies to achieve promising performance of behavior cloning. However, the slow inference caused by iterative denoising is a notorious disadvantage, which greatly limits its application in resource-limited and real-time interactive robot systems. The prevailing strategy to this problem is distillation, but it still requires considerable resources to retrain a student model. To this end, we take another training-free view to develop a novel Fast Policy (termed FP), which can be regarded as a powerful and accelerated alternative to Diffusion Policy for learning visuomotor robot control. Specifically, our comprehensive study of UNet encoder shows that its features change little during inference, prompting us to reuse encoder features in non-critical denoising steps. In addition, we design strategies based on Fourier energy to screen critical and non-critical steps dynamically according to different tasks. Importantly, to mitigate performance degradation caused by the repeated use of non-critical steps, we further introduce a noise correction strategy. Our FP is evaluated on multiple simulation benchmarks and the comparison results with existing speed-up methods demonstrate our effectiveness and superiority with state-of-the-art success rates in visuomotor inference speed.},
+  code      = {https://github.com/xwccchong/Fast-Policy},
   bibtex_show = {true}
 }

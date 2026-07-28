@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Tongshu Wu Website # the website title (if blank, full name will be used instead)
+title: Tongshu Wu # the website title (if blank, full name will be used instead)
 first_name: Tongshu
 middle_name:
 last_name: Wu

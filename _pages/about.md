@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Master's student in **Control Science and Engineering** at **[Tongji University](https://www.tongji.edu.cn/)**, advised by Prof. Hengtao Shen. My research focuses on **Embodied Intelligence**, with an emphasis on generalization, lightweight models, continual learning, and mixture-of-experts for robot manipulation.
+I am a Master's student in **Control Science and Engineering** at **[Tongji University](https://www.tongji.edu.cn/)**, advised by Prof. Zheng Wang. My research focuses on **Embodied Intelligence**, with an emphasis on generalization, lightweight models, continual learning, and mixture-of-experts for robot manipulation.
 
 Previously, I received my B.Eng. in **Intelligent Science and Technology** from **[Hangzhou Dianzi University](https://www.hdu.edu.cn/)** (Zhuoyue College) in 2024.
 
