@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Embodied intelligence and robot learning projects.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---

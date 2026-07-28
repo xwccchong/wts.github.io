@@ -6,7 +6,7 @@ subtitle: M.S. Student in Control Science and Engineering @ <a href='https://www
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>College of Electronic and Information Engineering</p>
