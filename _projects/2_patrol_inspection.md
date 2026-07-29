@@ -5,6 +5,7 @@ description: >
   A quadruped robot + arm compound system for autonomous workshop patrol, anomaly detection, and voice reporting.
 importance: 2
 category: work
+img: assets/img/shangfei.jpg
 ---
 
 **Duration:** 2025.11 – 2026.04  
