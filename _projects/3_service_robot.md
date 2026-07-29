@@ -2,7 +2,7 @@
 layout: page
 title: Service Robot System with Dual-Arm Coordination
 description: >
-  A service robot system featuring a central interaction hub with dual-arm collaborative execution for shelf picking and delivery.
+  A service robot system that turns natural-language requests into coordinated dual-arm picking and delivery.
 importance: 3
 category: work
 ---
@@ -12,9 +12,9 @@ category: work
 
 ## Overview
 
-Participated in developing a service robot system based on a "central interaction hub + dual-arm collaboration" architecture. The system completes the full closed loop from natural language instruction reception and task scheduling to multi-arm collaborative execution, including shelf picking and bar delivery.
+Contributed to a service robot system built around a central interaction hub and dual-arm collaboration. The system translates natural-language requests into scheduled, multi-arm execution for tasks such as shelf picking and bar delivery.
 
 ## Key Contributions
 
-- **Low-Level Arm Control:** Responsible for Franka robotic arm motion control. Modified the open-source FastUMI hardware solution and independently developed a low-cost teleoperation system adapted for the Franka arm, establishing an efficient real-robot data collection pipeline.
-- **Model Fine-Tuning & Deployment:** Deeply involved in fine-tuning and edge deployment of the embodied intelligence model π₀. Fine-tuned the model using self-collected teleoperation datasets and validated performance in real-world scenarios.
+- **Low-Level Arm Control:** Developed motion-control functionality for Franka arms. Adapted the open-source FastUMI hardware design and built a low-cost teleoperation setup, creating an efficient real-robot data collection pipeline.
+- **Model Fine-Tuning & Deployment:** Contributed to fine-tuning and edge deployment of the embodied model π₀ using self-collected teleoperation data, then validated the resulting policy in real-world tasks.

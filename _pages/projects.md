@@ -10,6 +10,23 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+  .post .post-title {
+    font-size: clamp(2rem, 4vw, 2.25rem);
+    line-height: 1.2;
+  }
+
+  .projects .card-title {
+    font-size: 1.375rem;
+    line-height: 1.3;
+  }
+
+  .projects .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+</style>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student in Control Science and Engineering @ <a href='https://www.tongji.edu.cn/'>Tongji University</a>
+subtitle: M.S. Candidate in Control Science and Engineering at <a href='https://www.tongji.edu.cn/'>Tongji University</a>
 
 profile:
   align: right
@@ -25,8 +25,22 @@ latest_posts:
   enabled: false
 ---
 
-I am a Master's student in **Control Science and Engineering** at **[Tongji University](https://www.tongji.edu.cn/)**, advised by Prof. Zheng Wang. My research focuses on **Embodied Intelligence**, with an emphasis on generalization, lightweight models, continual learning, and mixture-of-experts for robot manipulation.
+<style>
+  .post .post-title {
+    font-size: clamp(2rem, 4vw, 2.25rem);
+    line-height: 1.2;
+  }
+
+  .post .post-content {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+</style>
+
+I am an M.S. candidate in **Control Science and Engineering** at **[Tongji University](https://www.tongji.edu.cn/)**, advised by Prof. Zheng Wang. I am preparing for full-time opportunities in **Embodied AI**, **robot learning**, and **multimodal foundation models**.
+
+My research and engineering work connects perception, language, memory, and action. I study generalizable visuomotor policies for robot manipulation, with particular interest in efficient policy learning, continual learning, and mixture-of-experts methods. Most recently, I interned at **Ant Group**, focusing on memory for multimodal large language models.
 
 Previously, I received my B.Eng. in **Intelligent Science and Technology** from **[Hangzhou Dianzi University](https://www.hdu.edu.cn/)** (Zhuoyue College) in 2024.
 
-**Research Interests:** Embodied AI, Robot Learning, Visuomotor Policy, Imitation Learning, Vision-Language-Action Models.
+**Interests:** Embodied AI, Robot Learning, Visuomotor Policy, Vision-Language-Action Models, Multimodal Foundation Models, and Multimodal Memory.
